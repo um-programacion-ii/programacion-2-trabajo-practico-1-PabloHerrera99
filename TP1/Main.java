@@ -15,8 +15,9 @@ public class Main {
                 2010,
                 1000.0);
 
-        vehicle1.showInformation();
-        vehicle2.showInformation();
-        vehicle3.showInformation();
+        VehiclePrinter printer = new VehiclePrinter();
+        printer.print(vehicle1);
+        printer.print(vehicle2);
+        printer.print(vehicle3);
     }
 }

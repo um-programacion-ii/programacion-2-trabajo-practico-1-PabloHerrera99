@@ -57,11 +57,4 @@ public class Vehicle {
         }
         this.carryingCapacityKg = carryingCapacityKg;
     }
-
-    public void showInformation() {
-        System.out.println("Vehicle: " + brand +
-                " - " + year +
-                " - Plate: " + plate +
-                " - Carrying Capacity: " + carryingCapacityKg);
-    }
 }
