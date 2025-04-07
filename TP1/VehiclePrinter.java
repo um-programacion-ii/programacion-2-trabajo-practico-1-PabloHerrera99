@@ -12,6 +12,9 @@ public class VehiclePrinter {
         if (vehicle instanceof Truck truck) {
             System.out.println("Has Trailer: " + truck.getHasTrailer());
         }
+        if (vehicle instanceof Car car) {
+            System.out.println("Passenger Count: " + car.getPassengersCount());
+        }
 
         System.out.println("------------------------------");
     }

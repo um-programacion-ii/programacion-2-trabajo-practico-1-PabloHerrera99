@@ -24,6 +24,11 @@ public class Main {
                 2024,
                 15000,
                 false);
+        Car car1 = new Car("GH678IJ",
+                "Honda",
+                2020,
+                500,
+                2);
 
         VehiclePrinter printer = new VehiclePrinter();
         printer.print(vehicle1);
@@ -31,5 +36,6 @@ public class Main {
         printer.print(vehicle3);
         printer.print(truck1);
         printer.print(truck2);
+        printer.print(car1);
     }
 }
